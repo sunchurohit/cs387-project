@@ -1,0 +1,54 @@
+.main {
+  padding: 16px;
+  margin-top: 30px;
+}
+
+.topnav {
+  overflow: hidden;
+  top:0;
+  width:100%;
+  position:fixed;
+  background-color: #555;
+}
+
+.topnav span {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav span:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav span.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.img{
+  margin-left: 15px;
+  height: 100px;
+  width:100px;
+  display: inline-block;  
+}
+
+.courses{
+    width: 50%;
+    margin-top: 15px;
+    height: 50vh;
+    margin-right: auto; 
+    margin-left: auto;
+    overflow-y: auto;
+}
+
+.course{
+   padding: 5px;
+   background-color: #FAA; 
+   margin: 5px;
+   overflow: hidden;
+}
